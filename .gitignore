@@ -1,0 +1,84 @@
+# React Native / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+.expo/
+.expo-shared/
+
+# Metro
+.expo/
+.expo-shared/
+metro-cache/
+
+# Logs
+*.log
+*.log.*
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/captures/
+android/.idea
+*.apk
+*.ap_
+*.aab
+
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# iOS
+ios/Pods/
+ios/build/
+ios/Podfile.lock
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcworkspace
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+DerivedData/
+*.xccheckout
+*.xcuserstate
+*.xcscmblueprint
+
+# Xcode
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Keystore & keys
+*.keystore
+*.jks
+
+# Buck
+buck-out/
+\.buckd/
+android/app/.buckconfig.local
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Misc
+.env
